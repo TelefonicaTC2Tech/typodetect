@@ -1,0 +1,7 @@
+atpbar
+colorama
+tld
+python-levenshtein
+dnspython3
+requests_mock
+nose
