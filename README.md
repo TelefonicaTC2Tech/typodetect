@@ -23,7 +23,7 @@ detected with Malware or decentralized domains.
 
 Clone this repository with:
 ```bash
-git clone https://github.com/ElevenPaths/typodetect
+git clone https://github.com/Telefonica/typodetect
 ```
 
 Run setup for installation:
@@ -120,10 +120,4 @@ id: Integer id of mutation
 "A": IP's address of A type in DNS of the mutation.
 "MX": IP's or CNAME of MX type in DNS of the mutation.
 ```
-
-
-
-### More info
-
-**Wiki:** [https://innovation-gitlab.e-paths.com/private/typodetect/-/wikis/TypoDetect](https://innovation-gitlab.e-paths.com/private/packagedna/-/wikis/TypoDetect
 
