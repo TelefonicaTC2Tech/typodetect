@@ -8,7 +8,7 @@ from auxiliars.constants import tlds_json
 
 
 def integration(base, possibilities):
-    with open(tlds_json) as file:
+    with open(tlds_json, encoding='utf-8') as file:
         options = json.load(file)
 
     domain_int = base.replace('.', '')

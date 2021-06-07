@@ -14,5 +14,5 @@ def files_json(result, domain):
         os.makedirs(reports)
 
     with open(reports + domain +
-              datetime.utcnow().isoformat() + '.json', 'w') as file:
+              datetime.utcnow().isoformat() + '.json', 'w', encoding='utf-8') as file:
         file.write(results_json)
