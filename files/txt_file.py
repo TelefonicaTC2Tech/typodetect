@@ -14,7 +14,7 @@ def files_txt(result, domain, mutations):
     if not os.path.isdir(reports):
         os.makedirs(reports)
 
-    with open(reports + domain + '.txt', 'w') as file:
+    with open(reports + domain + '.txt', 'w', encoding='utf-8') as file:
         file.write(b)
         file.write('\n\n')
         file.write('[*] We detected ' + str(mutations) +

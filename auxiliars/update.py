@@ -10,7 +10,7 @@ from auxiliars.constants import url_update
 
 
 def updating():
-    with open(tlds_json) as file:
+    with open(tlds_json, encoding='utf-8') as file:
         options = json.load(file)
     try:
         for new_tld in urllib.request.urlopen(url_update).readlines():

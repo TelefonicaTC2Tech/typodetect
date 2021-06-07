@@ -12,7 +12,7 @@ from auxiliars.constants import separator
 
 
 def banner(domain):
-    with open(tlds_json) as file:
+    with open(tlds_json, encoding='utf-8') as file:
         options = json.load(file)
 
     print(Fore.GREEN + Style.BRIGHT + b)
@@ -37,4 +37,3 @@ def banner(domain):
     else:
         print(Fore.BLUE + Style.BRIGHT + '[*] Dominio ' + domain
               + ' does not exist')
-
